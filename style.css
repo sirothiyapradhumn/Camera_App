@@ -63,6 +63,10 @@ video{
     z-index: 2;
 }
 
+.timer{
+    display: none;
+}
+
 .filter-cont {
     position: absolute;
     background-color: lightgray;
