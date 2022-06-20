@@ -30,13 +30,45 @@ body{
 }
 
 .gallery-cont{
-    background-color: lightcyan;
+    background-color: rgb(7, 87, 87);
     height: 100vh;
     width: 100wh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
    
 }
 
 h1{
     margin: unset;
     text-align:center;
+}
+
+.media-cont{
+    height: 15rem;
+    width: 15rem;
+    /* background-color: rgb(4, 33, 4); */
+    border: 5px solid white;
+    margin: 2rem;
+}
+
+.media>*{
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+}
+.action-btn{
+    height: 2rem;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.download{
+    background-color: black;
+}
+
+.delete{
+    background-color: red;
 }
