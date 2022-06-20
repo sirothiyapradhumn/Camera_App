@@ -64,6 +64,9 @@ h1{
     align-items: center;
     justify-content: center;
 }
+.action-btn:hover{
+    cursor: pointer;
+}
 
 .download{
     background-color: black;

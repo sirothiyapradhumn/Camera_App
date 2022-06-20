@@ -153,3 +153,7 @@ video{
     right: 6rem;
     z-index: 2;
 }
+
+.gallery:hover{
+   cursor: pointer;
+}
